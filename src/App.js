@@ -57,8 +57,8 @@ function App(){
       </Route>
 
 
-      <Route path="/detail">
-        <Detail />
+      <Route path="/detail/:id">
+        <Detail shoes="{shoes}"/>
       </Route>
 
       <Route path="/:id">
@@ -74,7 +74,7 @@ function App(){
 function Product(props){
   return (
     <div className="col-md-4 text-center">
-      <img src={props.shoes.imgsrc} width="100%" />
+      <img src={ props.shoes.imgsrc } width="100%" alt="" />
       <h4>{ props.shoes.title }</h4>
       <p>{ props.shoes.content }</p>
       <p>{ props.shoes.price } 원</p>
