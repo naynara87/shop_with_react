@@ -1,0 +1,16 @@
+
+
+.main-top{
+  /* background: #efefef; */
+  text-align: center;
+  padding:30px 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction:column
+}
+.background {
+  background-image : url(./background.jpg);
+  background-position : center;
+  color: #fff;
+}
