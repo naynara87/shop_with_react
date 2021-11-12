@@ -1,5 +1,5 @@
 
-export default x [
+export default [
     {
         id : 0,
         imgsrc:"https://codingapple1.github.io/shop/shoes1.jpg",
